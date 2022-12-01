@@ -1,0 +1,285 @@
+CRITICAL - 2022-11-23 16:32:37 --> Class "Dompdf\Dompdf" not found
+in APPPATH/Controllers/Venda.php on line 96.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->salvarRelatorio('mes')
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:37:23 --> Class "Dompdf\Dompdf" not found
+in APPPATH/Controllers/Venda.php on line 96.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->salvarRelatorio('mes')
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:42:08 --> Undefined variable $vendaModel
+in APPPATH/Controllers/Venda.php on line 97.
+ 1 APPPATH/Controllers/Venda.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendaModel', 'APPPATH/Controllers/Venda.php', 97)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->salvarRelatorio('mes')
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:58:37 --> Undefined variable $tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:58:37 --> Undefined variable $tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:58:54 --> Undefined variable $tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:59:07 --> Undefined variable $Tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:59:36 --> Undefined variable $Tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(100): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->salvarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 16:59:41 --> Undefined variable $Tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:00:37 --> Undefined variable $Tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:00:52 --> Undefined property: stdClass::$MES_E_ANO
+in APPPATH/Views/list/lista_relatorio.php on line 44.
+ 1 APPPATH/Views/list/lista_relatorio.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$MES_E_ANO', 'APPPATH/Views/list/lista_relatorio.php', 44)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:01:47 --> Undefined property: stdClass::$ID_PRODUTO
+in APPPATH/Views/list/lista_relatorio.php on line 44.
+ 1 APPPATH/Views/list/lista_relatorio.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_PRODUTO', 'APPPATH/Views/list/lista_relatorio.php', 44)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:01:48 --> Undefined property: stdClass::$ID_PRODUTO
+in APPPATH/Views/list/lista_relatorio.php on line 44.
+ 1 APPPATH/Views/list/lista_relatorio.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_PRODUTO', 'APPPATH/Views/list/lista_relatorio.php', 44)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:01:48 --> Undefined property: stdClass::$ID_PRODUTO
+in APPPATH/Views/list/lista_relatorio.php on line 44.
+ 1 APPPATH/Views/list/lista_relatorio.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_PRODUTO', 'APPPATH/Views/list/lista_relatorio.php', 44)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:01:48 --> Undefined property: stdClass::$ID_PRODUTO
+in APPPATH/Views/list/lista_relatorio.php on line 44.
+ 1 APPPATH/Views/list/lista_relatorio.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_PRODUTO', 'APPPATH/Views/list/lista_relatorio.php', 44)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:01:49 --> Undefined property: stdClass::$ID_PRODUTO
+in APPPATH/Views/list/lista_relatorio.php on line 44.
+ 1 APPPATH/Views/list/lista_relatorio.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_PRODUTO', 'APPPATH/Views/list/lista_relatorio.php', 44)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 17:02:14 --> Unknown column 'ID_PRDUTO' in 'field list'
+CRITICAL - 2022-11-23 17:02:14 --> Unknown column 'ID_PRDUTO' in 'field list'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT ID_PRDUTO, COUNT(*) AS QTD FROM VENDA GROUP BY ID_PRODUTO', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT ID_PRDUTO, COUNT(*) AS QTD FROM VENDA GROUP BY ID_PRODUTO')
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT ID_PRDUTO, COUNT(*) AS QTD FROM VENDA GROUP BY ID_PRODUTO')
+ 4 APPPATH/Models/VendaModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT ID_PRDUTO, COUNT(*) AS QTD FROM VENDA GROUP BY ID_PRODUTO')
+ 5 APPPATH/Controllers/Venda.php(90): App\Models\VendaModel->selectProduto()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:09:24 --> Undefined property: stdClass::$ID_PRODUTO
+in APPPATH/Views/list/lista_relatorio.php on line 43.
+ 1 APPPATH/Views/list/lista_relatorio.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_PRODUTO', 'APPPATH/Views/list/lista_relatorio.php', 43)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(90): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:11:20 --> Undefined property: stdClass::$ID_VENDEDOR
+in APPPATH/Views/list/lista_relatorio.php on line 72.
+ 1 APPPATH/Views/list/lista_relatorio.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_VENDEDOR', 'APPPATH/Views/list/lista_relatorio.php', 72)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(93): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('vendedor')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:13:56 --> Undefined variable $Tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(100): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->salvarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:14:37 --> Undefined variable $Tipo
+in APPPATH/Views/list/lista_relatorio.php on line 4.
+ 1 APPPATH/Views/list/lista_relatorio.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Tipo', 'APPPATH/Views/list/lista_relatorio.php', 4)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(100): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->salvarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 17:19:29 --> Unknown column 'VENDA.ID_VENDEDO' in 'group statement'
+CRITICAL - 2022-11-23 17:19:29 --> Unknown column 'VENDA.ID_VENDEDO' in 'group statement'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT VENDEDOR.NOME_VENDEDOR, COUNT(*) AS QTD FROM VENDA INNER JOIN VENDEDOR ON VENDA.ID_VENDEDOR = VENDEDOR.ID_VENDEDOR GROUP BY VENDA.ID_VENDEDO', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT VENDEDOR.NOME_VENDEDOR, COUNT(*) AS QTD FROM VENDA INNER JOIN VENDEDOR ON VENDA.ID_VENDEDOR = VENDEDOR.ID_VENDEDOR GROUP BY VENDA.ID_VENDEDO')
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT VENDEDOR.NOME_VENDEDOR, COUNT(*) AS QTD FROM VENDA INNER JOIN VENDEDOR ON VENDA.ID_VENDEDOR = VENDEDOR.ID_VENDEDOR GROUP BY VENDA.ID_VENDEDO')
+ 4 APPPATH/Models/VendaModel.php(58): CodeIgniter\Database\BaseConnection->query('SELECT VENDEDOR.NOME_VENDEDOR, COUNT(*) AS QTD FROM VENDA INNER JOIN VENDEDOR ON VENDA.ID_VENDEDOR = VENDEDOR.ID_VENDEDOR GROUP BY VENDA.ID_VENDEDO')
+ 5 APPPATH/Controllers/Venda.php(93): App\Models\VendaModel->selectVendedor()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('vendedor')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 17:20:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM VENDA INNER JOIN PRODUTO ON VENDA.ID_PRODUTO = PRODUTO.ID_PRODUTO GROUP ...' at line 1
+CRITICAL - 2022-11-23 17:20:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM VENDA INNER JOIN PRODUTO ON VENDA.ID_PRODUTO = PRODUTO.ID_PRODUTO GROUP ...' at line 1
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT PRODUTO.NOME_PRODUTO, COUNT(*) AS QTD,SUM(VENDA.QUANTIDADE_VENDA) AS TOTAL_VENDA, FROM VENDA INNER JOIN PRODUTO ON VENDA.ID_PRODUTO = PRODUTO.ID_PRODUTO GROUP BY VENDA.ID_PRODUTO', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT PRODUTO.NOME_PRODUTO, COUNT(*) AS QTD,SUM(VENDA.QUANTIDADE_VENDA) AS TOTAL_VENDA, FROM VENDA INNER JOIN PRODUTO ON VENDA.ID_PRODUTO = PRODUTO.ID_PRODUTO GROUP BY VENDA.ID_PRODUTO')
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT PRODUTO.NOME_PRODUTO, COUNT(*) AS QTD,SUM(VENDA.QUANTIDADE_VENDA) AS TOTAL_VENDA, FROM VENDA INNER JOIN PRODUTO ON VENDA.ID_PRODUTO = PRODUTO.ID_PRODUTO GROUP BY VENDA.ID_PRODUTO')
+ 4 APPPATH/Models/VendaModel.php(46): CodeIgniter\Database\BaseConnection->query('SELECT PRODUTO.NOME_PRODUTO, COUNT(*) AS QTD,SUM(VENDA.QUANTIDADE_VENDA) AS TOTAL_VENDA, FROM VENDA INNER JOIN PRODUTO ON VENDA.ID_PRODUTO = PRODUTO.ID_PRODUTO GROUP BY VENDA.ID_PRODUTO')
+ 5 APPPATH/Controllers/Venda.php(90): App\Models\VendaModel->selectProduto()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('produto')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 17:32:52 --> Undefined variable $select_forn
+in APPPATH/Views/form/form_produto.php on line 42.
+ 1 APPPATH/Views/form/form_produto.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $select_forn', 'APPPATH/Views/form/form_produto.php', 42)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form/form_produto.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('form/form_produto', [], true)
+ 5 APPPATH/Controllers/Produto.php(45): view('form/form_produto', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Produto->adicionar()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produto))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-23 18:41:13 --> Error connecting to the database: Unknown database 'ENJOY'
+CRITICAL - 2022-11-23 18:41:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ENJOY'
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `FORNECEDOR`', [], false)
+ 3 SYSTEMPATH/Model.php(222): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH/Controllers/Fornecedor.php(11): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Fornecedor->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Fornecedor))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 18:46:27 --> syntax error, unexpected double-quoted string " />", expecting "," or ";"
+in APPPATH/Views/home.php on line 11.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('home', [], true)
+ 3 APPPATH/Controllers/Home.php(9): view('home')
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-23 18:49:47 --> Invalid file: list/lista_relatorio.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('list/lista_relatorio.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 3 APPPATH/Controllers/Venda.php(84): view('list/lista_relatorio', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

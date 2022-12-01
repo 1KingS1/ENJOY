@@ -1,0 +1,8 @@
+CRITICAL - 2022-08-03 20:08:24 --> syntax error, unexpected variable "$c", expecting "," or ";"
+in APPPATH/Controllers/Home.php on line 20.
+ 1 SYSTEMPATH/Router/Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('home/soma')
+ 2 SYSTEMPATH/Router/Router.php(205): CodeIgniter\Router\Router->autoRoute('home/soma')
+ 3 SYSTEMPATH/CodeIgniter.php(771): CodeIgniter\Router\Router->handle('home/soma')
+ 4 SYSTEMPATH/CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

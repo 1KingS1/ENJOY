@@ -1,0 +1,332 @@
+CRITICAL - 2022-11-08 18:29:51 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:32:00 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:33:10 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:33:10 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:33:11 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 7.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:33:26 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:34:20 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:34:56 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:34:57 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:34:58 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:34:58 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:34:58 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:34:58 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:35:06 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:36:10 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:36:21 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:36:22 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:36:22 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:36:22 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:36:22 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:36:22 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:37:01 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:37:50 --> syntax error, unexpected token "(", expecting "{"
+in APPPATH/Controllers/Cadastrar.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:37:51 --> syntax error, unexpected token "(", expecting "{"
+in APPPATH/Controllers/Cadastrar.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:37:51 --> syntax error, unexpected token "(", expecting "{"
+in APPPATH/Controllers/Cadastrar.php on line 5.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:37:59 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 6.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:38:44 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 15.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:39:04 --> syntax error, unexpected token "{", expecting "("
+in APPPATH/Controllers/Cadastrar.php on line 22.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Cadastrar.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Cadastrar')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Cadastrar')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Cadastrar', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:43:37 --> Undefined variable $contatoModel
+in APPPATH/Controllers/Cadastrar.php on line 42.
+ 1 APPPATH/Controllers/Cadastrar.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contatoModel', 'APPPATH/Controllers/Cadastrar.php', 42)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:44:26 --> Call to a member function Save() on string
+in APPPATH/Controllers/Cadastrar.php on line 42.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:46:26 --> Undefined variable $contatoModel
+in APPPATH/Controllers/Cadastrar.php on line 41.
+ 1 APPPATH/Controllers/Cadastrar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contatoModel', 'APPPATH/Controllers/Cadastrar.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:46:38 --> Undefined variable $contatoModel
+in APPPATH/Controllers/Cadastrar.php on line 41.
+ 1 APPPATH/Controllers/Cadastrar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contatoModel', 'APPPATH/Controllers/Cadastrar.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:46:56 --> Undefined variable $contatoModel
+in APPPATH/Controllers/Cadastrar.php on line 41.
+ 1 APPPATH/Controllers/Cadastrar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contatoModel', 'APPPATH/Controllers/Cadastrar.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-08 18:50:10 --> Undefined variable $contatoModel
+in APPPATH/Controllers/Cadastrar.php on line 41.
+ 1 APPPATH/Controllers/Cadastrar.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $contatoModel', 'APPPATH/Controllers/Cadastrar.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 18:50:40 --> No database selected
+CRITICAL - 2022-11-08 18:50:40 --> No database selected
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `CLIENTE`
+WHERE `CPF` = \'6546546543\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(695): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `CLIENTE`
+WHERE `CPF` = \'6546546543\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(609): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `CLIENTE`
+WHERE `CPF` = \'6546546543\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `CLIENTE`
+WHERE `CPF` = :CPF:', [...], false)
+ 5 SYSTEMPATH/Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 6 SYSTEMPATH/Model.php(638): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH/BaseModel.php(655): CodeIgniter\Model->shouldUpdate([...])
+ 8 APPPATH/Controllers/Cadastrar.php(41): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+10 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-08 18:51:33 --> Error connecting to the database: Access denied for user ''@'localhost' to database 'ENJOY'
+CRITICAL - 2022-11-08 18:51:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' to database 'ENJOY'
+in SYSTEMPATH/Database/BaseConnection.php on line 416.
+ 1 SYSTEMPATH/Database/BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1669): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `CLIENTE`
+WHERE `CPF` = :CPF:', [...], false)
+ 3 SYSTEMPATH/Model.php(550): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+ 4 SYSTEMPATH/Model.php(638): CodeIgniter\Model->countAllResults()
+ 5 SYSTEMPATH/BaseModel.php(655): CodeIgniter\Model->shouldUpdate([...])
+ 6 APPPATH/Controllers/Cadastrar.php(41): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cadastrar->Inserir_Cliente()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cadastrar))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

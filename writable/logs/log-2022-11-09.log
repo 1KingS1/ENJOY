@@ -1,0 +1,614 @@
+CRITICAL - 2022-11-09 17:21:01 --> syntax error, unexpected double-quoted string "CNPJ", expecting "]"
+in APPPATH/Models/FornecedorModel.php on line 27.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Models/FornecedorModel.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\FornecedorModel')
+ 3 APPPATH/Controllers/Fornecedor.php(8): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\FornecedorModel')
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\FORNECEDOR->index()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FORNECEDOR))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:31:58 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:32:07 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:32:26 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:32:57 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:28 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:29 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:30 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:30 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:48 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:49 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:49 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:49 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:49 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:50 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:50 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:50 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:51 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:51 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:51 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:51 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:33:51 --> Unclosed '{'
+in APPPATH/Controllers/Venda.php on line 8.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(261): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Venda.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(239): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Venda')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Venda')
+ 4 SYSTEMPATH/CodeIgniter.php(846): class_exists('\\App\\Controllers\\Venda', true)
+ 5 SYSTEMPATH/CodeIgniter.php(453): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:34:34 --> Undefined variable $vendas
+in APPPATH/Controllers/Venda.php on line 13.
+ 1 APPPATH/Controllers/Venda.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $vendas', 'APPPATH/Controllers/Venda.php', 13)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->index()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:34:57 --> Undefined variable $Vendas
+in APPPATH/Views/list/lista_vendas.php on line 18.
+ 1 APPPATH/Views/list/lista_vendas.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Vendas', 'APPPATH/Views/list/lista_vendas.php', 18)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_vendas.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_vendas', [], true)
+ 5 APPPATH/Controllers/Venda.php(13): view('list/lista_vendas', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:35:41 --> Undefined variable $Vendas
+in APPPATH/Views/list/lista_vendas.php on line 17.
+ 1 APPPATH/Views/list/lista_vendas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Vendas', 'APPPATH/Views/list/lista_vendas.php', 17)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_vendas.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_vendas', [], true)
+ 5 APPPATH/Controllers/Venda.php(13): view('list/lista_vendas', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:35:47 --> Undefined variable $Vendas
+in APPPATH/Views/list/lista_vendas.php on line 17.
+ 1 APPPATH/Views/list/lista_vendas.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Vendas', 'APPPATH/Views/list/lista_vendas.php', 17)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_vendas.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_vendas', [], true)
+ 5 APPPATH/Controllers/Venda.php(13): view('list/lista_vendas', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:36:39 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:29 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:30 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:30 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:30 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:30 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:31 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:31 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:31 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:31 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:32 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:32 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:32 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:32 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:32 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:32 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:33 --> Undefined variable $clientes
+in APPPATH/Views/list/lista_clientes.php on line 14.
+ 1 APPPATH/Views/list/lista_clientes.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clientes', 'APPPATH/Views/list/lista_clientes.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:37:55 --> Undefined property: stdClass::$ID_CLIENTE
+in APPPATH/Views/list/lista_clientes.php on line 17.
+ 1 APPPATH/Views/list/lista_clientes.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_CLIENTE', 'APPPATH/Views/list/lista_clientes.php', 17)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:38:48 --> Undefined property: stdClass::$NOME_CLIENTE
+in APPPATH/Views/list/lista_clientes.php on line 16.
+ 1 APPPATH/Views/list/lista_clientes.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$NOME_CLIENTE', 'APPPATH/Views/list/lista_clientes.php', 16)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:39:02 --> Undefined property: stdClass::$ID_CLIENTE
+in APPPATH/Views/list/lista_clientes.php on line 20.
+ 1 APPPATH/Views/list/lista_clientes.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$ID_CLIENTE', 'APPPATH/Views/list/lista_clientes.php', 20)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_clientes.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_clientes', [], true)
+ 5 APPPATH/Controllers/Cliente.php(14): view('list/lista_clientes', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->index()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:41:21 --> Undefined variable $mensagem
+in APPPATH/Controllers/Cliente.php on line 36.
+ 1 APPPATH/Controllers/Cliente.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensagem', 'APPPATH/Controllers/Cliente.php', 36)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:42:33 --> Invalid file: form_cliente.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form_cliente.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('form_cliente', [], true)
+ 3 APPPATH/Controllers/Cliente.php(38): view('form_cliente', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 17:42:51 --> Undefined variable $cliente
+in APPPATH/Views/form/form_cliente.php on line 7.
+ 1 APPPATH/Views/form/form_cliente.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'APPPATH/Views/form/form_cliente.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form/form_cliente.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('form/form_cliente', [], true)
+ 5 APPPATH/Controllers/Cliente.php(38): view('form/form_cliente', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:15:28 --> Undefined variable $title
+in APPPATH/Views/modelo.php on line 7.
+ 1 APPPATH/Views/modelo.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $title', 'APPPATH/Views/modelo.php', 7)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/modelo.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/View/View.php(229): CodeIgniter\View\View->render('modelo', [], true)
+ 5 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_vendas', [], true)
+ 6 APPPATH/Controllers/Venda.php(13): view('list/lista_vendas', [...])
+ 7 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->index()
+ 8 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 9 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:17:25 --> Undefined constant "App\Controllers\Fornecedores"
+in APPPATH/Controllers/Fornecedor.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\FORNECEDOR->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FORNECEDOR))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:17:33 --> Undefined constant "App\Controllers\Vendedores"
+in APPPATH/Controllers/Vendedor.php on line 11.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\VENDEDOR->index()
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VENDEDOR))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:30:59 --> max_lenght is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 314.
+ 1 SYSTEMPATH/Validation/Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lenght')
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('NOME', 'NOME', 'Priscila ', [...], [...])
+ 3 SYSTEMPATH/BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH/BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH/Controllers/Cliente.php(29): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:32:53 --> max_lenght is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 314.
+ 1 SYSTEMPATH/Validation/Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lenght')
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('NOME', 'NOME', 'Priscila ', [...], [...])
+ 3 SYSTEMPATH/BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH/BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH/Controllers/Cliente.php(29): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:33:13 --> max_lenght is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 314.
+ 1 SYSTEMPATH/Validation/Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lenght')
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('NOME', 'NOME', 'Priscila', [...], [...])
+ 3 SYSTEMPATH/BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH/BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH/Controllers/Cliente.php(29): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:35:12 --> max_lenght is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 314.
+ 1 SYSTEMPATH/Validation/Validation.php(314): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('max_lenght')
+ 2 SYSTEMPATH/Validation/Validation.php(173): CodeIgniter\Validation\Validation->processRules('NOME', 'NOME', 'Priscila', [...], [...])
+ 3 SYSTEMPATH/BaseModel.php(1349): CodeIgniter\Validation\Validation->run([...], null, null)
+ 4 SYSTEMPATH/BaseModel.php(707): CodeIgniter\BaseModel->validate([...])
+ 5 SYSTEMPATH/Model.php(666): CodeIgniter\BaseModel->insert([...], false)
+ 6 SYSTEMPATH/BaseModel.php(658): CodeIgniter\Model->insert([...], false)
+ 7 APPPATH/Controllers/Cliente.php(29): CodeIgniter\BaseModel->save([...])
+ 8 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 9 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:35:56 --> Undefined variable $cliente
+in APPPATH/Controllers/Cliente.php on line 71.
+ 1 APPPATH/Controllers/Cliente.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cliente', 'APPPATH/Controllers/Cliente.php', 71)
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->editar('777777')
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:36:25 --> Undefined property: stdClass::$CEP
+in APPPATH/Views/form/form_cliente.php on line 11.
+ 1 APPPATH/Views/form/form_cliente.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$CEP', 'APPPATH/Views/form/form_cliente.php', 11)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form/form_cliente.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('form/form_cliente', [], true)
+ 5 APPPATH/Controllers/Cliente.php(71): view('form/form_cliente', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->editar('777777')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:44:40 --> Undefined variable $Cliente
+in APPPATH/Views/form/form_cliente.php on line 28.
+ 1 APPPATH/Views/form/form_cliente.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Cliente', 'APPPATH/Views/form/form_cliente.php', 28)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form/form_cliente.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('form/form_cliente', [], true)
+ 5 APPPATH/Controllers/Cliente.php(39): view('form/form_cliente', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:45:50 --> Undefined variable $Cliente
+in APPPATH/Views/form/form_cliente.php on line 32.
+ 1 APPPATH/Views/form/form_cliente.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Cliente', 'APPPATH/Views/form/form_cliente.php', 32)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form/form_cliente.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('form/form_cliente', [], true)
+ 5 APPPATH/Controllers/Cliente.php(39): view('form/form_cliente', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-09 18:46:03 --> Undefined variable $Cliente
+in APPPATH/Views/form/form_cliente.php on line 36.
+ 1 APPPATH/Views/form/form_cliente.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Cliente', 'APPPATH/Views/form/form_cliente.php', 36)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/form/form_cliente.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('form/form_cliente', [], true)
+ 5 APPPATH/Controllers/Cliente.php(39): view('form/form_cliente', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Cliente->Adicionar()
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cliente))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()

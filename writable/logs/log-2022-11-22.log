@@ -1,0 +1,82 @@
+CRITICAL - 2022-11-22 18:40:55 --> Class "app\Models\VendaModel" not found
+in APPPATH/Controllers/Venda.php on line 86.
+ 1 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 2 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:41:08 --> syntax error, unexpected double-quoted string "MES E ANO", expecting identifier or variable or "{" or "$"
+in APPPATH/Views/list/lista_relatorio.php on line 14.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 3 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:41:44 --> Undefined property: mysqli::$ID_VENDA
+in APPPATH/Views/list/lista_relatorio.php on line 13.
+ 1 APPPATH/Views/list/lista_relatorio.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$ID_VENDA', 'APPPATH/Views/list/lista_relatorio.php', 13)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:42:41 --> Undefined property: mysqli::$MES_E_ANO
+in APPPATH/Views/list/lista_relatorio.php on line 12.
+ 1 APPPATH/Views/list/lista_relatorio.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: mysqli::$MES_E_ANO', 'APPPATH/Views/list/lista_relatorio.php', 12)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:43:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+in APPPATH/Models/VendaModel.php on line 38.
+ 1 APPPATH/Controllers/Venda.php(87): App\Models\VendaModel->selectData()
+ 2 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 3 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:45:55 --> Undefined variable $Venda
+in APPPATH/Views/list/lista_relatorio.php on line 14.
+ 1 APPPATH/Views/list/lista_relatorio.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Venda', 'APPPATH/Views/list/lista_relatorio.php', 14)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/list/lista_relatorio.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 5 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 7 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:46:50 --> syntax error, unexpected token ";"
+in APPPATH/Views/list/lista_relatorio.php on line 14.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 3 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:56:19 --> syntax error, unexpected token "if"
+in APPPATH/Views/list/lista_relatorio.php on line 22.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 3 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-22 18:56:46 --> syntax error, unexpected double-quoted string ">Gerar Relatorio</a>", expecting "," or ";"
+in APPPATH/Views/list/lista_relatorio.php on line 25.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('list/lista_relatorio', [], true)
+ 3 APPPATH/Controllers/Venda.php(87): view('list/lista_relatorio', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(896): App\Controllers\Venda->gerarRelatorio('mes')
+ 5 SYSTEMPATH/CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Venda))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(55): CodeIgniter\CodeIgniter->run()
